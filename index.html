@@ -5,79 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header class="">
-        <nav class="nav">
-            <a href="#cv">Cv</a>
-            <a href="#portafolio">Portafolio</a>
-            <a href="#contacto">contacto</a>
+    <header class="w-full border-b border-b-gray-200 ">
+        <nav class="max-w-3xl px-3 py-6 md:py-8 mx-auto flex justify-center gap-x-12">
+            <a href="#cv" class="text-lg">Cv</a>
+            <a href="#portafolio" class="text-lg">Portafolio</a>
+            <a href="#contacto" class="text-lg">contacto</a>
         </nav>
     </header>
-    <section id="cv">
-        <h2>Perfil</h2>
-        <p>Hola, soy Matias Cayul. <strong>Estudiante de Ingenieria en Informática en Duoc UC</strong>,     
-            especializado en el desarollo de software para transformar requerimientos complejos en soluciones tecnológicas eficientes, 
-            escalables y seguras.
-        </p>
-        <img src="./assets/imgs/ChatGPT Image 14 ago 2026, 11_01_35 a.m.png" alt="Dragon cool", height="450px", width="550px">
-        <section>
-            <h3>Fortalezas</h3>
-            <ul>
-                <li>Resolucion de problemas</li>
-                <li>Pensamiento Analitico</li>
-                <li>Adaptabilidad</li>
-                <li>Trabajo en equipo</li>
-                <li>Comunicacion asertiva</li>
-            </ul>
+    <main class="w-full">
+        <section id="cv" class="max-w-4xl mx-auto mt-15 px-4">
+            <h1 class="font-bold font-sans text-3xl text-gray-950 text-center md:text-left">Matias Igancio Cayul Palavecino</h1>
+            <p class="mt-0.5 text-lg font-normal text-gray-500 text-center md:text-left">Santiago, Chile</p>
+            <p class="mt-2.5 text-slate-800 text-lg text-center md:text-left">
+                Estudiante de Ingeniería en Informática en Duoc UC con formación en desarrollo de 
+                software. Busco una oportunidad laboral para aplicar mis conocimientos técnicos y 
+                seguir desarrollándome en el área de TI.
+            </p>
         </section>
-        <section>
-            <h3>Formacion Academica</h3>
-            <article>
-                <p><strong>Alberto Blest Gana</strong></p>
-                <p>Educacion enseñansa basica</p>
-            </article>
-            <article>
-                <p><strong>Alberto Blest Gana</strong></p>
-                <p>Educacion enseñansa media</p>
-            </article>
-            <article>
-                <p><strong>Duoc UC</strong></p>
-                <p>Educacion superior: Ingenieria en Informtica</p>
-            </article>
-        </section>
-    </section>
-    <section id="portafolio">
-        <h2>Proyectos</h2>
-        <section>
-            <h3>Tecnologias</h3>
-            <ul>
-                <li>Desarrollo Full Stack / Backend / Frontend: Java (Spring boot), JavaScript (React y falso), CSS, HTML, Python</li>
-                <li>Bases de Datos y Cloud: OracleSql, MySQL, AWS (falso), Docker(falso)</li>
-                <li>Gestión: control de versiones con Git, análisis de sistemas y diseño de arquitectura de software.</li>
-            </ul>
-            <section>
-                <article>
-                    <h4>Api reserva</h4>
-                    <img src="./assets/imgs/spring-boot-1.svg" alt="logo" height="50px" width="50px">
-                    <p>Se trata de un backend para gestionar reservas de diferntes servicios, permitiendo reservar un servicio especifico</p>
+        <section class="max-w-4xl mx-auto grid grid-cols-1 px-4 mt-8 md:grid-cols-3 gap-6 pb-8 border-b border-b-gray-300">
+            <section class="col-span-1 ">
+                <h2 class="py-2 border-b border-b-gray-300 text-2xl font-bold text-gray-950">Aptitudes</h2>
+                <div class="mt-4 flex flex-wrap gap-x-1 gap-y-2">
+                    <span class="px-3 py-1 bg-gray-200 rounded-2xl">SQL</span>
+                    <span class="px-3 py-1 bg-gray-200 rounded-2xl">Git/Github</span>
+                    <span class="px-3 py-1 bg-gray-200 rounded-2xl">Java</span>
+                    <span class="px-3 py-1 bg-gray-200 rounded-2xl">Desarrollo Backend</span>
+                </div>
+            </section>
+            <section class="col-span-1 md:col-span-2">
+                <h3 class="py-2 border-b border-b-gray-300 text-2xl font-bold text-gray-950 mb-4">Formacion Academica</h3>
+                <article class=" mb-3">
+                    <h3 class="font-semibold text-lg">Duoc UC</h3>
+                    <div class="flex gap-2">
+                        <p class="text-slate-800">Educacion superior: Ingenieria en Informtica</p>
+                        <p class="text-gray-700">2026</p>
+                    </div>
+                </article>
+                <article class=" mb-3">
+                    <h3 class="font-semibold text-lg">Alberto Blest Gana</h3>
+                    <div class="flex gap-2">
+                        <p class="text-slate-800">Educacion enseñansa media</p>
+                        <p class="text-gray-700">2020-2024</p>
+                    </div>
+                </article>
+                <article class=" mb-3">
+                    <h3 class="font-semibold text-lg">Alberto Blest Gana</h3>
+                    <div class="flex gap-2">
+                        <p class="text-slate-800">Educacion enseñansa basica</p>
+                        <p class="text-gray-700">2012-2020</p>
+                    </div>
                 </article>
             </section>
         </section>
-        <section>
-            
+        <section id="portafolio" class="max-w-4xl mx-auto mt-10 mb-20 px-4 ">
+            <h2 class="text-2xl font-bold mb-4">Proyectos Destacados</h2>
+            <section class="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
+                <article class="col-span-1 p-8 border border-gray-300 rounded-lg hover:border-black">
+                    <h4 class="font-bold text-lg ">Fullstack 1</h4>
+                    <p class="mt-1.5">Se trata de un backend para gestionar de manera integral diferentes modulos de un cine.</p>
+                    <a href="https://github.com/macayul-boop/sistema-cine" target="_blank" class="flex justify-end"><img src="./assets/imgs/logotipo-de-github.png" alt="Logo Github" height="30px" width="30px"></a>
+                </article>
+            </section>
         </section>
-    </section>
-    <section id="contacto">
-            <small>
-                Contacto:
-                <a href="tel:+56963391571">whatsapp</a>
-                <a href="mailto:ma.cayul@duocuc.cl">Email</a>
-            </small>
-    </section>
-    <footer>
-        <p><small>Toda esta cosa esta es mia, No me la roben.</small></p>
+        <section id="contacto" class="max-w-4xl mx-auto py-16 px-4 border-t border-t-gray-300">
+                <h2 class="text-4xl font-bold mb-4 text-center">Contacto</h2>
+                <p class="text-lg text-gray-600 text-center">¿Tienes un proyecto en mente? Envíame un mensaje directo.</p>
+                <form class="w-full p-8 mt-12 border border-gray-300 rounded-2xl ">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-5">
+                        <div class="flex flex-col">
+                            <label class="mb-2.5">Nombre</label>
+                            <input type="text" placeholder="Nombre" class="border border-gray-300 rounded-lg py-2 px-4">
+                        </div>
+                        <div class="flex flex-col">
+                            <label class="mb-2.5">Email</label>
+                            <input type="text" placeholder="tu@email.com" class="border border-gray-300 rounded-lg py-2 px-4">
+                        </div>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <label class="mb-2.5">Mensaje</label>
+                        <textarea placeholder="Mensaje" class="border border-gray-300 rounded-lg py-2 px-4 resize-none min-h-50"></textarea>
+                    </div>
+                    <div class="flex justify-center">
+                        <button class="bg-blue-700 px-8 py-4 rounded-4xl text-white font-semibold hover:bg-blue-800">Enviar Mensaje</button>
+                    </div>
+                </form>
+        </section>
+    </main>
+    
+    <footer class="w-full h-45 flex justify-center items-center">
+        <p class="text-gray-400"><small>© 2026 Matias Cayul. Built with Esfuerzo & Tailwind.</small></p>
     </footer>
 </body>
 </html>
